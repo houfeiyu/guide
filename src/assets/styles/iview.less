@@ -1,0 +1,30 @@
+@import '~view-design/src/styles/index.less';
+
+// iview相关
+.ivu-message {
+    font-size: 15px;
+}
+
+// 全局加载框样式
+.loading {
+    .ivu-icon {
+        animation: ani-demo-spin 1s linear infinite;
+
+        @keyframes ani-demo-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            50% {
+                transform: rotate(180deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    }
+    div {
+        font-size: 20px;
+    }
+}
